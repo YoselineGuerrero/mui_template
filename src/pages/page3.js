@@ -13,6 +13,9 @@ import Tooltip from '@mui/material/Tooltip';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
+import TextField  from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 
 const socials = [
   {icon:GitHubIcon, title: 'Github', color: 'black', url: 'https://github.com/' },
@@ -29,7 +32,7 @@ const socials = [
 
 export default function Page3() {
   return (
-    <div style={{ height:'100vh'}}>
+    <div>
       <Card elevation='3' sx={{ display: 'inline-block', position: "sticky", top: '30vh', left:'100vw'}} >
         <Grid rowSpacing={1} >
           {socials.map((socials) => (
@@ -67,6 +70,25 @@ export default function Page3() {
               </Typography>
             </Grid>
           ))}
+          <Grid item xs={12} sx={{margin:'10px'}}>
+            <Typography variant='h5'>Contact Form</Typography>
+          </Grid>
+          <Box component="form" sx={{ width: '100%' }}>
+            <Grid item xs={12}  md={6}>
+              <TextField fullWidth helperText="Please enter your name" label="Name" focused/>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField fullWidth helperText="Please enter your email" focused label="Email"  />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField fullWidth label="Message" multiline rows={8} focused  />
+            </Grid>
+            <Grid item xs={12} >
+              <Button type="submit" variant="outlined" sx={{ marginTop:'15px'}} >
+                Submit
+              </Button>
+            </Grid>
+          </Box>
         </Grid>
       </div>
     </div>
