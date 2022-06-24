@@ -4,7 +4,7 @@ Demo: https://main.db6zihjdbzz7y.amplifyapp.com/
 
 Features:
 
--Dark Mode
+-Dark Mode 
 
 -Compatible with small devices
 
