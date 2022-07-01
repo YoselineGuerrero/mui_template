@@ -2,6 +2,8 @@
 
 Demo: https://main.db6zihjdbzz7y.amplifyapp.com/
 
+A blog template that anyone can use, in the near future it will also have options to be more customizable so that it can fit your theme better.
+
 Features:
 
 -Dark Mode 
