@@ -2,6 +2,8 @@
 
 A blog template that anyone can use, in the near future it will also have options to be more customizable so that it can fit your theme better.
 
+Demo: https://mui-template.netlify.app
+
 Features:
 
 -Dark Mode 
